@@ -24,7 +24,7 @@ This project was primarily developed in Google Colab. The dataset is downloaded 
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/khrystynakoblan/GazeEstimation.git](https://github.com/khrystynakoblan/GazeEstimation.git)
-   cd GazeEstimation.
+   git clone https://github.com/khrystynakoblan/GazeEstimation.git
+   cd GazeEstimation
 2. Open the gaze_estimation_main_code.ipynb file in Google Colab.
 3. Run the cells sequentially to download the data, pre-process it, build the model, and start the training process.
