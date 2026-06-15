@@ -20,11 +20,12 @@ The project uses a custom Convolutional Neural Network (CNN) named `GazeEstimati
 * The evaluation was conducted using **5-Fold Cross Validation**, achieving an average Mean Angular Error of approximately 5.5°.
 
 ## How to Run
-This project was primarily developed in Google Colab. The dataset is downloaded automatically via `kagglehub`.
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/khrystynakoblan/GazeEstimation.git
-   cd GazeEstimation
-2. Open the gaze_estimation_main_code.ipynb file in Google Colab.
-3. Run the cells sequentially to download the data, pre-process it, build the model, and start the training process.
+1. Upload `source/` folder to your Google Drive
+2. Open `main.ipynb` in Google Colab, enable GPU  
+   (`Runtime → Change runtime type → T4 GPU`)
+3. In **Cell 1**, set `PROJECT_PATH` to the folder where you uploaded the files:
+```python
+   PROJECT_PATH = '/content/drive/MyDrive/your_folder/source'
+```
+4. Run all cells sequentially
